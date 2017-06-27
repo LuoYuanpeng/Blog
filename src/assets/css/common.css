@@ -1,0 +1,40 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	background-color:#fff;
+	height: 100%;
+	font:14px/1.5 "Open Sans",sans-serif;
+}
+a {
+	color:#c2c2c2;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+    display:block;
+}
+h1,h2,h3,h4,h5{
+	font-weight: 500;
+}
+ul,li {
+	list-style: none;
+}
+input,button {
+	outline: none;
+}
+blockquote{
+	border-left: 6px solid #c4c4c4;
+	margin: 0;
+	line-height:44px;
+	text-indent: 30px;
+	background-color: #f1f0ea;
+}
+#main blockquote p{
+	padding: 0;
+}
+.clr:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clr{zoom:1}
